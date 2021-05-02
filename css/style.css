@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    z-index: 2;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 47px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+header .logo a{
+    font-size: 22px;
+    display: inline-block;
+}
+header .logo a i {
+    font-size:20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 8px 10px;
+
+}
+header .logo p{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-right:48px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.wallp {
+    position: relative;
+    z-index: 1;
+    background: url('../images/work_01.png') no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100vw;
+
+}
+.container2{
+    padding-top: 120px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+.container2 h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #e2ca88;
+}
+.container2 h2 {
+    padding-top: 25px;
+    font-size: 44px;
+    color: #4d5c66;
+    padding-bottom: 55px;
+}
+.container2 p{
+    max-width: 715px;
+    margin: auto;
+    padding-bottom: 130px;
+    font-size: 18px;
+}
+.container6{
+    max-height: 95px;
+    background-color: #eeeeee;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.container6 p {
+    font-size: 16px;
+    padding: 40px 200px 35px 230px;
+    color: #6a747d;
+}
